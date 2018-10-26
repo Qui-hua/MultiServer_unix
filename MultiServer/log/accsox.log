@@ -1,0 +1,7 @@
+2018-10-26 10:24:15.491  0x00000001 *********************
+2018-10-26 10:24:15.491  0x00000001 SYSCOM  BANK start 1.0.3 @ 2018-03-21. All rights reserved.
+2018-10-26 10:24:15.491  0x00000001 *********************
+2018-10-26 10:24:15.491  0x00000001 		 get_config: Start Read config
+2018-10-26 10:24:15.491  0x00000001 		 get_config: open failure[/home/syscom/hua/MultiServer/config/accsox_config],No such file or directory-
+2018-10-26 10:24:15.491  0x00000001 		 accsox_init: get_config error, No such file or directory-
+2018-10-26 10:24:15.491  0x00000001 		 accsox_init error-

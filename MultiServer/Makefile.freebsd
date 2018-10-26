@@ -1,0 +1,31 @@
+#
+#	CHEN SEI-LIM
+#	2017-03-01
+#
+
+TOPDIR	:= $(PWD)
+export TOPDIR
+
+include	$(TOPDIR)/oem/freebsd-x86.mk
+
+export OSTYPE
+export LIBDIR
+
+CFLAGS	+= -DDEBUG_WORKER
+CFLAGS	+= -I$(TOPDIR)/src
+CFLAGS	+= -I$(TOPDIR)/oem/$(OSTYPE)
+
+LDFLAGS	+= -L$(TOPDIR)/bin
+
+export CFLAGS
+export LDFLAGS
+
+
+all:	Makefile $(EXTRA)
+	$(MAKE) -C src
+
+
+clean:
+	$(MAKE) clean -C src
+	rm -rf bin/*
+

@@ -1,0 +1,15 @@
+#最大連接數
+Con_Sizq=5
+
+#初始timeout
+first_Tout=10
+
+#log IP
+server_IP=127.0.0.1
+
+#server port
+Ser_Port=5429
+
+#log Level
+write_log_s=3
+
